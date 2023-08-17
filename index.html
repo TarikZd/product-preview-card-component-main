@@ -15,8 +15,7 @@
 
   <title>Frontend Mentor | Product preview card component</title>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -24,10 +23,10 @@
   <main>
     <article class="product">
       <picture class="product__picture">
-        <source srcset="./images/image-product-desktop.jpg" media="(min-width: 600px)">
-        <img src="./images/image-product-mobile.jpg" alt="">
+        <img src="./images/image-product-desktop.jpg" alt="" class="desktop-only" width="295" height="478">
+        <img src="./images/image-product-mobile.jpg" alt="" class="mobile-only" width="100%">
       </picture>
-      <div class="product__content">
+      <div class=" product__content">
         <p class="product__category">Perfume</p>
         <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
         <p class="product__description">
